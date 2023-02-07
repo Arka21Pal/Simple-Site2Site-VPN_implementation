@@ -3,7 +3,11 @@
 Link: https://github.com/acantril/learn-cantrill-io-labs/tree/master/aws-simple-site2site-vpn
 
 
-First step:
+First steps:
+
+1. Create 2 VPCs, with requisite options.
+
+To-do:
 
 1. Create AMI with OPNsense from base FreeBSD install.
 2. Study the [template](https://github.com/acantril/learn-cantrill-io-labs/blob/master/aws-simple-site2site-vpn/infra.yaml).
