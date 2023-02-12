@@ -10,7 +10,9 @@ To understand the connection between the VGW and CGW, read this: https://docs.aw
 
 The IGW is basically "like a switch that determines if the VPC will have any public IPs". Thus, the deployment on the customer's side needs to have an IGW to route *any* traffic outside.
 
-Understand VPC networking: https://www.reddit.com/r/aws/comments/10oysxj/basics_of_aws_vpc_understanding_subnets_route/
+Understand VPC networking: 
+1. https://www.reddit.com/r/aws/comments/10oysxj/basics_of_aws_vpc_understanding_subnets_route/
+2. https://www.reddit.com/r/aws/comments/tdyqow/vpc_question_nat_vs_internet_gateway/
 
 ---
 
