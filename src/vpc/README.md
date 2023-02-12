@@ -13,6 +13,7 @@ The IGW is basically "like a switch that determines if the VPC will have any pub
 Understand VPC networking: 
 1. https://www.reddit.com/r/aws/comments/10oysxj/basics_of_aws_vpc_understanding_subnets_route/
 2. https://www.reddit.com/r/aws/comments/tdyqow/vpc_question_nat_vs_internet_gateway/
+3. https://www.learnaws.org/2022/06/30/internet-vs-nat-gateway/
 
 ---
 
