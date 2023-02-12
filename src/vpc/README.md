@@ -8,7 +8,7 @@ To emulate the customer side better, we have an IGW on the customer side. The ro
 
 To understand the connection between the VGW and CGW, read this: https://docs.aws.amazon.com/vpn/latest/s2svpn/how_it_works.html
 
-The IGW is basically "like a switch that determines if the VPC will have any public IPs". Thus, both deployments need to have an IGW to route *any* traffic outside.
+The IGW is basically "like a switch that determines if the VPC will have any public IPs". Thus, the deployment on the customer's side needs to have an IGW to route *any* traffic outside.
 
 # References
 
