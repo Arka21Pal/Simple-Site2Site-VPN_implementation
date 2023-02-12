@@ -6,6 +6,10 @@ On the AWS_VPC side, the VGW is a redundant structure, which connects to the cus
 
 To emulate the customer side better, we have an IGW on the customer side. The router (pfsense box) is provided both a private and public ENI - by extension, an EIP for each (the latter is used for the VPN connection), along with Route Tables and SGs defined so that traffic flows through it.
 
+To understand the connection between the VGW and CGW, read this: https://docs.aws.amazon.com/vpn/latest/s2svpn/how_it_works.html
+
+The IGW is basically "like a switch that determines if the VPC will have any public IPs". Thus, both deployments need to have an IGW to route *any* traffic outside.
+
 # References
 
 Helpful link: https://medium.com/petabytz/ipsec-vpn-configuration-on-aws-cloud-using-cloudformation-92078c3aa4c9
